@@ -62,6 +62,11 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.store-logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .store-logo {
     width: 80px;
     border-radius: 50%;
@@ -89,9 +94,10 @@ header {
     margin-left: 10px;
 }
 
-.stars span {
+.stars p {
     font-size: 14px;
     color: gold;
+    margin: 3px 0;
 }
 
 /* Produk */
